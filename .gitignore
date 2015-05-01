@@ -1,0 +1,10 @@
+.settings
+
+/*/bin
+/*/obj
+/*/Properties
+
+*.csproj
+*.exe
+*.sln
+*.userprefs
