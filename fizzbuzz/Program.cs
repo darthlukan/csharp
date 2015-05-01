@@ -6,7 +6,7 @@ namespace fizzbuzz
 	{
 		public static void Main (string[] args)
 		{
-			int[] nums = new int[10] { 100, 22, 13, 15, 24, 32, 30, 40, 90, 55 };
+			int[] nums = { 100, 22, 13, 15, 24, 32, 30, 40, 90, 55 };
 
 			foreach (int num in nums) {
 				if (num % 3 == 0 && num % 5 == 0) {
