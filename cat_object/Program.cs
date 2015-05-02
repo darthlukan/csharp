@@ -8,7 +8,7 @@ namespace cat_object
 		{
 			Cat cat = new Cat ("Pebbles", "Orange");
 			Console.WriteLine (cat.Describe ());
-			cat.Color = "Pink";
+			cat.Color = "Pink";  // Uses setter
 			cat.Name = "Lady";
 			Console.WriteLine (cat.Describe ());
 		}
@@ -18,7 +18,7 @@ namespace cat_object
 	{
 		private string name, color;
 
-		public Cat (string name, string color)
+		public Cat (string name, string color) // Cat constructor (like Python's __init__) 
 		{
 			this.name = name;
 			this.color = color;
@@ -36,6 +36,7 @@ namespace cat_object
 
 		public string Describe ()
 		{
+			// Python3 style string formatting
 			return string.Format ("{0} the cat is {1}!", this.Name, this.Color);
 		}
 	}
