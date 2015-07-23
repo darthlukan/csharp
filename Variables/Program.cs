@@ -15,9 +15,13 @@ namespace Variables
 			Console.WriteLine (y);
 			*/
 
-			// string
+			int x = 7;
 			string myFirstName = "Brian";
-			Console.WriteLine (myFirstName);
+
+			// Implicit type conversion o.0
+			string tryThis = x + myFirstName;
+			// >> 7Brian
+			Console.WriteLine (tryThis);
 			Console.ReadLine ();
 		}
 	}
