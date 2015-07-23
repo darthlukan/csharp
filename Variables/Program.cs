@@ -22,7 +22,15 @@ namespace Variables
 			string tryThis = x + myFirstName;
 			// >> 7Brian
 			Console.WriteLine (tryThis);
-			Console.ReadLine ();
+
+			// This compiles, but with warnings and breaks at runtime (as expected)
+			// int anotherTry = x + int.Parse (myFirstName);
+			// Console.WriteLine (anotherTry);
+
+			string y = "5";
+			int yetAnotherTry = x + int.Parse (y);
+			// Output >> 12
+			Console.WriteLine (yetAnotherTry);
 		}
 	}
 }
