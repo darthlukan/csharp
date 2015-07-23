@@ -14,6 +14,10 @@ namespace Variables
 			y = x + 3;
 			Console.WriteLine (y);
 			*/
+
+			// string
+			string myFirstName = "Brian";
+			Console.WriteLine (myFirstName);
 			Console.ReadLine ();
 		}
 	}
